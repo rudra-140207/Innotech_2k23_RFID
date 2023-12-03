@@ -1,0 +1,29 @@
+.dashboard {
+    text-align: center;
+  
+    .custom-table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto;
+  
+      .table-header {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        padding: 8px;
+      }
+  
+      .table-data {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+  
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+  
+      tr:hover {
+        background-color: #ddd;
+      }
+    }
+  }
+  
